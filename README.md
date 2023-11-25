@@ -14,10 +14,12 @@
 ### Menjalankan MySQL Server
 #### Untuk menjalankan MySQL Server dari menu XAMPP Contol.
 <img width="960" alt="foto1" src="https://github.com/yudifermana/lab8web/assets/115516653/1a89039f-c296-4d7f-8825-31c181b911c1">
+
 ### Mengakses MySQL Client menggunakan PHP MyAdmin
 #### Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka melalui browser: http://localhost/phpmyadmin/
 ### Membuat Database: Studi Kasus Data Barang
 <img width="621" alt="foto2" src="https://github.com/yudifermana/lab8web/assets/115516653/ebafbf27-36a3-4dff-9f04-0433b8ecb495">
+
 ### Membuat Database
 ```python
 CREATE DATABASE latihan1;
@@ -35,6 +37,7 @@ CREATE TABLE data_barang (
 );
 ```
 <img width="960" alt="foto3" src="https://github.com/yudifermana/lab8web/assets/115516653/842f4c2a-3fef-4bbb-bd2c-7d033b135914">
+
 ### Menambahkan Data
 ```python
 INSERT INTO data_barang (kategori, nama, gambar, harga_beli, harga_jual, stok)
