@@ -74,7 +74,8 @@ if ($conn == false)
 ?>
 ```
 #### Buka melalui browser untuk menguji koneksi database untuk menyampilkan pesan koneksi berhasil, uncomment pada perintah ```echo “koneksi berhasil”;```
-![gambar](web/1.png)
+<img width="960" alt="foto7" src="https://github.com/yudifermana/lab8web/assets/115516653/ed3b5aae-0f99-48bb-9bcf-b43d26c1cdd6">
+
 ### Membuat file index untuk menampilkan data (Read)
 #### Buat file baru dengan nama ```index.php```
 ```python
@@ -135,7 +136,8 @@ $result = mysqli_query($conn, $sql);
 </body>
 </html>
 ```
-![gambar](web/5.png)
+<img width="960" alt="foto8" src="https://github.com/yudifermana/lab8web/assets/115516653/c964dd07-be41-48de-968a-b15effcc598c">
+
 ### Menambah Data (Create)
 #### Buat file baru dengan nama ```tambah.php```
 ```python
@@ -196,7 +198,8 @@ $result = mysqli_query($conn, $sql);
 </body>
 </html>
 ```
-![gambar](web/4.png)
+<img width="960" alt="foto9" src="https://github.com/yudifermana/lab8web/assets/115516653/130d8a55-48e6-419d-ae4c-c34b016f6a44">
+
 ### Mengubah Data (Update)
 #### Buat file baru dengan nama ```ubah.php```
 ```python
@@ -306,7 +309,8 @@ $data['id_barang'];?>" />
 </body>
 </html>
 ```
-![gambar](web/3.png)
+<img width="960" alt="foto10" src="https://github.com/yudifermana/lab8web/assets/115516653/1d2f8ddf-0eae-4cdd-949e-974903aace79">
+
 ### Menghapus Data (Delete)
 #### Buat file baru dengan nama ```hapus.php```
 ```python
