@@ -46,11 +46,17 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 
 ('Elektronik', 'HP OPPO Android', 'hp_oppo.jpg', 1800000, 2300000, 5);
 ```
 <img width="874" alt="foto4" src="https://github.com/yudifermana/lab8web/assets/115516653/d347f225-4252-4071-ab85-845efce20221">
+
 ### Membuat Program CRUD
 #### Buat folder lab8_php_database pada root directory web server (c:\xampp\htdocs)
-![foto5](https://github.com/yudifermana/lab8web/assets/115516653/a357d90f-754f-4096-a8ae-ec98b1a0aaa1)
+
+![foto5](https://github.com/yudifermana/lab8web/assets/115516653/b04c33cf-0f04-4834-af4e-39f9df09b5a4)
+
+
 #### Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL: http://localhost/lab8_php_database/
+
 <img width="960" alt="foto6" src="https://github.com/yudifermana/lab8web/assets/115516653/a1a1e7c1-9bde-414d-bfcf-2346ed517831">
+
 ### Membuat file koneksi database
 #### Buat file baru dengan nama ```koneksi.php```
 ```python
