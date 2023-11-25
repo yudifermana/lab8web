@@ -13,11 +13,11 @@
 
 ### Menjalankan MySQL Server
 #### Untuk menjalankan MySQL Server dari menu XAMPP Contol.
-![Alt text](foto1.png)
+<img width="960" alt="foto1" src="https://github.com/yudifermana/lab8web/assets/115516653/1a89039f-c296-4d7f-8825-31c181b911c1">
 ### Mengakses MySQL Client menggunakan PHP MyAdmin
 #### Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka melalui browser: http://localhost/phpmyadmin/
 ### Membuat Database: Studi Kasus Data Barang
-![Alt text](foto2.png)
+<img width="621" alt="foto2" src="https://github.com/yudifermana/lab8web/assets/115516653/ebafbf27-36a3-4dff-9f04-0433b8ecb495">
 ### Membuat Database
 ```python
 CREATE DATABASE latihan1;
@@ -34,7 +34,7 @@ CREATE TABLE data_barang (
     stok int(4)
 );
 ```
-![gambar](web/shell2.png)
+<img width="960" alt="foto3" src="https://github.com/yudifermana/lab8web/assets/115516653/842f4c2a-3fef-4bbb-bd2c-7d033b135914">
 ### Menambahkan Data
 ```python
 INSERT INTO data_barang (kategori, nama, gambar, harga_beli, harga_jual, stok)
@@ -42,12 +42,12 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 
 ('Elektronik', 'HP Xiaomi Android', 'hp_xiaomi.jpg', 1000000, 1400000, 5),
 ('Elektronik', 'HP OPPO Android', 'hp_oppo.jpg', 1800000, 2300000, 5);
 ```
-![gambar](web/shell3.png)
+<img width="874" alt="foto4" src="https://github.com/yudifermana/lab8web/assets/115516653/d347f225-4252-4071-ab85-845efce20221">
 ### Membuat Program CRUD
 #### Buat folder lab8_php_database pada root directory web server (c:\xampp\htdocs)
-![gambar](web/7.png)
+![foto5](https://github.com/yudifermana/lab8web/assets/115516653/a357d90f-754f-4096-a8ae-ec98b1a0aaa1)
 #### Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL: http://localhost/lab8_php_database/
-![gambar](web/6.png)
+<img width="960" alt="foto6" src="https://github.com/yudifermana/lab8web/assets/115516653/a1a1e7c1-9bde-414d-bfcf-2346ed517831">
 ### Membuat file koneksi database
 #### Buat file baru dengan nama ```koneksi.php```
 ```python
