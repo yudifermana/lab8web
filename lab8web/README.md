@@ -13,11 +13,11 @@
 
 ### Menjalankan MySQL Server
 #### Untuk menjalankan MySQL Server dari menu XAMPP Contol.
-![Alt text](foto1.png)
+![Alt text](web/foto1.png)
 ### Mengakses MySQL Client menggunakan PHP MyAdmin
 #### Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka melalui browser: http://localhost/phpmyadmin/
 ### Membuat Database: Studi Kasus Data Barang
-![Alt text](foto2.png)
+![Alt text](web/foto2.png)
 ### Membuat Database
 ```python
 CREATE DATABASE latihan1;
@@ -34,7 +34,7 @@ CREATE TABLE data_barang (
     stok int(4)
 );
 ```
-![gambar](web/shell2.png)
+![gambar](web/foto3.png)
 ### Menambahkan Data
 ```python
 INSERT INTO data_barang (kategori, nama, gambar, harga_beli, harga_jual, stok)
@@ -42,12 +42,12 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 
 ('Elektronik', 'HP Xiaomi Android', 'hp_xiaomi.jpg', 1000000, 1400000, 5),
 ('Elektronik', 'HP OPPO Android', 'hp_oppo.jpg', 1800000, 2300000, 5);
 ```
-![gambar](web/shell3.png)
+![gambar](web/foto4.png)
 ### Membuat Program CRUD
 #### Buat folder lab8_php_database pada root directory web server (c:\xampp\htdocs)
-![gambar](web/7.png)
+![gambar](web/foto5.png)
 #### Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL: http://localhost/lab8_php_database/
-![gambar](web/6.png)
+![gambar](web/foto6.png)
 ### Membuat file koneksi database
 #### Buat file baru dengan nama ```koneksi.php```
 ```python
@@ -65,7 +65,7 @@ if ($conn == false)
 ?>
 ```
 #### Buka melalui browser untuk menguji koneksi database untuk menyampilkan pesan koneksi berhasil, uncomment pada perintah ```echo “koneksi berhasil”;```
-![gambar](web/1.png)
+![gambar](web/foto7.png)
 ### Membuat file index untuk menampilkan data (Read)
 #### Buat file baru dengan nama ```index.php```
 ```python
@@ -126,7 +126,7 @@ $result = mysqli_query($conn, $sql);
 </body>
 </html>
 ```
-![gambar](web/5.png)
+![gambar](web/foto8.png)
 ### Menambah Data (Create)
 #### Buat file baru dengan nama ```tambah.php```
 ```python
@@ -187,7 +187,7 @@ $result = mysqli_query($conn, $sql);
 </body>
 </html>
 ```
-![gambar](web/4.png)
+![gambar](web/foto9.png)
 ### Mengubah Data (Update)
 #### Buat file baru dengan nama ```ubah.php```
 ```python
@@ -297,7 +297,7 @@ $data['id_barang'];?>" />
 </body>
 </html>
 ```
-![gambar](web/3.png)
+![gambar](web/foto10.png)
 ### Menghapus Data (Delete)
 #### Buat file baru dengan nama ```hapus.php```
 ```python
